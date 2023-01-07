@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RoadTrip</string>
+    <string name="distance">Distância em Km</string>
+    <string name="fuel_price">Combustivel preço/L</string>
+    <string name="autonomy">KMs/L</string>
+    <string name="total_value">R$ 0.00</string>
+    <string name="calculate">Calcular</string>
+    <string name="total_spend">Gasto total</string>
+    <string name="logo_app_name">RoadTrip</string>
+
+
+    <string name="validate_fill_all_fields">Preencha todos os campos corretamente!</string>
+</resources>

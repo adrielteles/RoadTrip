@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="17dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logo_app_name"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="30dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_distance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:autofillHints="no"
+        android:hint="@string/distance"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="false" />
+    <EditText
+        android:id="@+id/edit_price_fuel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fuel_price"
+        android:autofillHints="no"
+        android:layout_marginBottom="30dp"
+        android:inputType="numberDecimal"
+        />
+    <EditText
+        android:id="@+id/edit_autonomy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/autonomy"
+        android:autofillHints="no"
+        android:layout_marginBottom="30dp"
+        android:inputType="numberDecimal"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total_spend"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="30dp"
+        />
+    <TextView
+        android:id="@+id/text_total_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total_value"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="55sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="30dp"
+        />
+
+    <Button
+        android:id="@+id/button_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/contrast"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:padding="16dp"
+        android:text="@string/calculate"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
