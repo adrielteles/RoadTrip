@@ -1,0 +1,33 @@
+R_DEF: Internal format may change without notice
+local
+color background
+color black
+color contrast
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id button_calculate
+id edit_autonomy
+id edit_distance
+id edit_price_fuel
+id text_total_value
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string autonomy
+string calculate
+string distance
+string fuel_price
+string logo_app_name
+string total_spend
+string total_value
+string validate_fill_all_fields
+style Theme.RoadTrip
+xml backup_rules
+xml data_extraction_rules
